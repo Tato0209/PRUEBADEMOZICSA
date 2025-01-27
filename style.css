@@ -1,0 +1,108 @@
+/* Barra de navegación */
+
+nav.navbar{
+  padding: 0;
+}
+
+.navbar .container-fluid {
+    background-color: #06d7f3ae ;
+  
+  }
+
+/* Formulario  */
+
+.row {
+padding: 30px;
+}
+
+h1{
+    align-content: center;
+}
+/* Estilos para HTML table */
+.btn{
+  background-color: #1ed2b1;
+  text-align: right;
+}
+
+.position{
+  text-align: right;
+}
+
+#excel_data tbody th {
+  background-color: #1ed2b1; /* Fondo verde */
+  color: white; /* Texto en blanco */
+  text-align: center;
+}
+/* Cambia el color del borde de la tabla */
+#excel_data, #excel_data th, #excel_data td {
+  border: 1px solid #ddd;
+}
+.container-fluid{
+  text-align: justify;
+}
+
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Seccion Hero */
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
+
+/* Sobre mi */
+
+#sobre-la-web {
+  height: 500px;
+  padding: 10px;
+}
+
+#sobre-la-web .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
