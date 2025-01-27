@@ -11,8 +11,8 @@
      
 </head>
 <body>
-    <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <!-- Barra de Navegación -->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">
           <img src="/img/LogoZicsa.png" width="80" alt="Logo Corporativo Zicsa"> 
@@ -49,7 +49,7 @@
   </nav>
     <!-- Excel to table -->
     <div class="container-fluid">
-      <h2 class="text-center">Carga Masiva de Proveedores</h2>
+      <h2 class="text-center">Carga Masiva de Empleados</h2>
       <div class="row justify-content-md-center">
           <div class="nav navbar"><b>Excel file</b></div>
           <div class="card-body">
@@ -65,13 +65,10 @@
         <table id="dataTable" class="styled-table" border="1">
           <thead class="table-bordered table-dark">
             <tr>
-              <th>CardCode</th>
-              <th>CardName</th>
-              <th>CardType</th>
-              <th>GroupCode</th>
-              <th>RUC</th>
-              <th>EmailAddress</th>
-              <th>Nombre Comercial</th>
+              <th>Nombre</th>
+              <th>Segundo Nombre</th>
+              <th>Apellidos</th>
+              <th>DNI</th>
             </tr>
           </thead>
           <tbody>
@@ -80,8 +77,9 @@
         </table>
       </div>
     <div class="position text-center mt-3">
-        <button type="button" id="uploadButton" class="btn btn-light">Migrar</button>
+        <button type="button" class="btn btn-light">Migrar</button>
     </div>
+
     <!-- Footer -->
 
     <footer class="bg-dark text-white text-center py-3 mt-auto">
@@ -94,9 +92,8 @@
         </ul>
       </div>
     </footer>
-    <script src="/login.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="/BusinessPartner/Bpm.js"></script>
+    <script src="/login.js"></script>
 </body>
 </html>
